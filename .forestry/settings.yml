@@ -9,11 +9,13 @@ sections:
   label: posts
   create: all
   match: "**/*"
+  exclude: "*json"
 - type: directory
   path: src/pages
   label: pages
   create: all
   match: "**/*"
+  exclude: "*json"
 upload_dir: Blog
 public_path: https://res.cloudinary.com/dfj8fvt0m/image/upload
 front_matter_path: ''
