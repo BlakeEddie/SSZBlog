@@ -8,14 +8,14 @@ sections:
   path: src/index.md
   label: Home
 - type: directory
-  path: src/posts
-  label: posts
+  path: src/pages
+  label: pages
   create: all
   match: "**/*"
   exclude: "*json"
 - type: directory
-  path: src/pages
-  label: pages
+  path: src/posts
+  label: posts
   create: all
   match: "**/*"
   exclude: "*json"
